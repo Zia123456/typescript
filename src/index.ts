@@ -7,4 +7,3 @@ function getCustomer(id: number): Customer | null | undefined {
 }
 
 let customer = getCustomer(1);
-console.log(customer?.birthday?.getFullYear());
